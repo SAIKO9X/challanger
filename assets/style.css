@@ -157,6 +157,11 @@ body {
 	padding: 12px 30px;
 
 	cursor: pointer;
+	transition: 250ms ease-in-out;
+}
+
+#encrypt-button:hover {
+	scale: 0.9;
 }
 
 #decrypt-button {
@@ -171,6 +176,11 @@ body {
 	padding: 12px 30px;
 
 	cursor: pointer;
+	transition: 250ms ease-in-out;
+}
+
+#decrypt-button:hover {
+	scale: 0.9;
 }
 
 #right-buttons {
